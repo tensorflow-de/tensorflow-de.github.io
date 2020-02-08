@@ -1,7 +1,7 @@
 <header class="site-header" role="banner">
 
   <div class="wrapper">
-    {%- assign default_paths = site.pages | map: "path" -%}
+    {%- assign default_paths = site.pages | where:"navbar",true | map: "path" -%}
     {%- assign page_paths = site.header_pages | default: default_paths -%}
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">
       <img src="/assets/tf-notitle.svg" height="30px;" style="margin-bottom: 5px; margin-right: 5px"/>{{ site.title | escape }}

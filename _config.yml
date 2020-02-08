@@ -24,13 +24,18 @@ description: >- # this means to ignore newlines until "baseurl:"
   TensorFlow.DE ist die deutschsprachige Community rund um das Machine Learning Framework TensorFlow mit Keras. Neben interessanten HowTos und Tutorials bieten wir als Expertennetzwerk und Trainer Schulungen an.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tensorflow.de" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
+twitter_username: TensorflowD
 github_username:  tensorflow-de
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
+
+minima:
+  lang: "de"
+  date_locale: "de"
+  date_format: "%d. %B %Y"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
