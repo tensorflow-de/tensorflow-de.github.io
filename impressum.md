@@ -18,7 +18,7 @@ Pawel Sawicki
 ## Kontakt:
 
 Telefon: +49 176 73034496  
-E-Mail: info@tensorflow.de
+E-Mail: tensorflow@psawicki.de
 
 ## Eintragung im Handelsregister:
 
